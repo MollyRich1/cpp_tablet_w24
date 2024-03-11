@@ -1,9 +1,11 @@
-//slideshow stuff
+//slideshow stuff attempt with added start and stop button
 const pausePlayBtns = document.querySelectorAll('.pause-play-btn');
 const slideTracks = document.querySelectorAll('.slide-track');
 
 pausePlayBtns.forEach((btn, index) => {
   let isPlaying = true;
+  // how does the index reset, it doesn't??
+  //make an if statement and reset it back to 0
   const slideTrack = slideTracks[index];
 
   btn.addEventListener('click', () => {
@@ -17,6 +19,7 @@ pausePlayBtns.forEach((btn, index) => {
     isPlaying = !isPlaying;
   });
 });
+
 
 
 

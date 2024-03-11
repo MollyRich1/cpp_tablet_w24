@@ -251,16 +251,32 @@ h1 {
   margin: 0 auto;
 }
 
-.zucchini_images{
+.zucchini_images img {
+  width: 270px;
+  margin: 10px;
+}
+
+.swed_pancake img{
+  height: 400px;
+}
+
+.peddie_imgs img{
+  height: 200px;
+  width: 255px;
+}
+.cody_imgs img{
+  height: 300px;
+  width: 255px;
+}
+
+.zucchini_images, .swed_pancake{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.zucchini_images img {
-  margin: 10px;
-}
+
 
 /* slideshow stuff */
 .slideshow {
